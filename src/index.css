@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+main {
+  padding: 36px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+
+  height: 65px;
+  background-color: brown;
+  color: white;
+}
+
+.header-img {
+  height: 100%;
+  margin-right: 7px;
+}
+
+.header-title {
+  font-size: 1.25rem;
+  /* (20/16 = 1.25) */
+  margin-right: auto;
+}
+
+.header-desc {
+  font-size: 0.75rem;
+  margin-right: 7px;
+  font-size: 12px;
+}
+
+/* Main CSS */
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form-btn {
+  grid-column: 1 / -1;
+  border-radius: 5px;
+  background-color: brown;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 2px solid black;
+  text-indent: 5px;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.meme--image {
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+    2px 2px 0 #000,
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    0 2px 0 #000,
+    2px 0 0 #000,
+    0 -2px 0 #000,
+    -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.meme {
+  position: relative;
+}
+
+/* From Here My CSS has started */
+
+/* for Array Container */
+.array--container {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  border: 1px solid black;
+}
+
+.bar-- {
+  background-color: rgb(36, 228, 36);
+  margin: 0px 2px;
+  font-size: 0.55rem;
+  color: rgb(35, 32, 32);
+}
+
+
+/* Slider CSS copied from w3Shool */
+
+/* .slidecontainer { width of outside container
+  width: 100%;
+} */
+
+/* The slider itself */
+/* .slider {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+} */
+
+/* Mouse-over effects */
+/* .slider:hover {
+  opacity: 1;
+} */
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+/* .slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+} */
+
+/* .slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: #04AA6D;
+  cursor: pointer;
+}  */
